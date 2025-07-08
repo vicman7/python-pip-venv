@@ -11,8 +11,9 @@ python3 game.py
 
 ```sh
 git clone 
-cd charts
+cd world-population
 source venv/bin/activate
 pip3 install -r requirements.txt
-python3 main.py
+mkdir imgs
+python3 country_pop_chart.py
 ```
