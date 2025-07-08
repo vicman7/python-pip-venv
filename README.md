@@ -12,6 +12,7 @@ python3 game.py
 ```sh
 git clone 
 cd world-population
+python3 -m venv venv
 source venv/bin/activate
 pip3 install -r requirements.txt
 mkdir imgs
