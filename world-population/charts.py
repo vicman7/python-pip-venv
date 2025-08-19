@@ -15,8 +15,8 @@ def generate_pie_chart(name, labels, sizes):
     plt.pie(sizes, labels = labels, autopct='%1.1f%%', colors=colors, startangle=0, wedgeprops={'edgecolor': 'black'})
     plt.title('World population by country')
     plt.axis('equal')
-    #plt.show()
     plt.savefig(f'./imgs/{name}.png') # Save the figure to a file
+    plt.show()
     plt.close()
 
 if __name__ == '__main__':
